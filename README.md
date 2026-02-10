@@ -4,9 +4,9 @@
 [![PHP Version](https://img.shields.io/packagist/dependency-v/auto-api/client/php)](https://packagist.org/packages/auto-api/client)
 [![License](https://img.shields.io/packagist/l/auto-api/client)](LICENSE)
 
-PHP client for [auto-api.com](https://auto-api.com) — car listings API across multiple marketplaces.
+PHP wrapper for [auto-api.com](https://auto-api.com) — unified access to car listings from encar, mobile.de, autoscout24, che168 and other marketplaces.
 
-One API to access car listings from 8 marketplaces: encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle. Search offers, track price changes, and get listing data in a unified format.
+Covers 8 sources across Korea, Europe, China and UAE. Fetch offers, filter by brand/year/price, track listing changes over time. Requires PHP 8.1+ and Guzzle.
 
 ## Installation
 
