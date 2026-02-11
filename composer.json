@@ -1,5 +1,5 @@
 {
-    "name": "auto-api/client",
+    "name": "autoapi/client",
     "description": "PHP wrapper for the auto-api.com car listings API (encar, mobile.de, autoscout24 and more)",
     "type": "library",
     "license": "MIT",
