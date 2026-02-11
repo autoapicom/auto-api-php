@@ -1,10 +1,10 @@
-# auto-api/client
+# autoapi/client
 
 > PHP client for auto-api.com — car listings API from 8 automotive marketplaces (encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle).
 
 ## Install
 
-composer require auto-api/client
+composer require autoapi/client
 
 ## Quick Start
 
