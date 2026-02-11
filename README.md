@@ -1,8 +1,8 @@
 # auto-api-client-php
 
-[![Packagist Version](https://img.shields.io/packagist/v/auto-api/client)](https://packagist.org/packages/auto-api/client)
-[![PHP Version](https://img.shields.io/packagist/dependency-v/auto-api/client/php)](https://packagist.org/packages/auto-api/client)
-[![License](https://img.shields.io/packagist/l/auto-api/client)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/autoapi/client)](https://packagist.org/packages/autoapi/client)
+[![PHP Version](https://img.shields.io/packagist/dependency-v/autoapi/client/php)](https://packagist.org/packages/autoapi/client)
+[![License](https://img.shields.io/packagist/l/autoapi/client)](LICENSE)
 
 PHP wrapper for [auto-api.com](https://auto-api.com) — unified access to car listings from encar, mobile.de, autoscout24, che168 and other marketplaces.
 
@@ -11,7 +11,7 @@ Covers 8 sources across Korea, Europe, China and UAE. Fetch offers, filter by br
 ## Installation
 
 ```bash
-composer require auto-api/client
+composer require autoapi/client
 ```
 
 ## Usage
@@ -98,8 +98,8 @@ try {
 
 | Language | Package |
 |----------|---------|
-| TypeScript | [@auto-api/client](https://github.com/autoapicom/auto-api-node) |
-| Python | [auto-api-client](https://github.com/autoapicom/auto-api-python) |
+| TypeScript | [@autoapicom/client](https://github.com/autoapicom/auto-api-node) |
+| Python | [autoapicom-client](https://github.com/autoapicom/auto-api-python) |
 | Go | [auto-api-go](https://github.com/autoapicom/auto-api-go) |
 | C# | [AutoApi.Client](https://github.com/autoapicom/auto-api-dotnet) |
 | Java | [auto-api-client](https://github.com/autoapicom/auto-api-java) |

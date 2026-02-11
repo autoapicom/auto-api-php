@@ -5,7 +5,7 @@ PHP client for [auto-api.com](https://auto-api.com) — car listings API across 
 ## Quick Start
 
 ```bash
-composer require auto-api/client
+composer require autoapi/client
 ```
 
 ```php
