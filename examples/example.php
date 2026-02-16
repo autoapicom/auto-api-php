@@ -14,7 +14,7 @@ use AutoApi\Client;
 use AutoApi\Exception\AuthException;
 use AutoApi\Exception\ApiException;
 
-$client = new Client('your-api-key');
+$client = new Client('your-api-key', 'https://api1.auto-api.com');
 $source = 'encar';
 
 // --- Get available filters ---
@@ -89,7 +89,7 @@ echo "{$info['mark']} {$info['model']} {$info['year']} — \${$info['price']}\n"
 // --- Error handling ---
 
 try {
-    $badClient = new Client('invalid-key');
+    $badClient = new Client('invalid-key', 'https://api1.auto-api.com');
     $badClient->getOffers('encar', ['page' => 1]);
 } catch (AuthException $e) {
     echo "\nAuth error: {$e->getMessage()} (HTTP {$e->getStatusCode()})\n";

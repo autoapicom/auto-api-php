@@ -19,7 +19,7 @@ composer require autoapi/client
 ```php
 use AutoApi\Client;
 
-$client = new Client('your-api-key');
+$client = new Client('your-api-key', 'https://api1.auto-api.com');
 ```
 
 ### Get filters

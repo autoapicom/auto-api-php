@@ -15,7 +15,7 @@ class Client
     private string $apiKey;
     private string $apiVersion;
 
-    public function __construct(string $apiKey, string $baseUrl = 'https://auto-api.com', string $apiVersion = 'v2')
+    public function __construct(string $apiKey, string $baseUrl = 'https://api1.auto-api.com', string $apiVersion = 'v2')
     {
         $this->apiKey = $apiKey;
         $this->apiVersion = $apiVersion;

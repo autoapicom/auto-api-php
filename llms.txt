@@ -8,7 +8,7 @@ composer require autoapi/client
 
 ## Quick Start
 
-$client = new \AutoApi\Client('your-api-key');
+$client = new \AutoApi\Client('your-api-key', 'https://api1.auto-api.com');
 $offers = $client->getOffers('encar', ['page' => 1, 'brand' => 'BMW']);
 
 ## API Methods
